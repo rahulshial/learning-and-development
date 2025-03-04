@@ -9,7 +9,6 @@ For example (Input --> Output):
 function persistence(num) {
   let result = 0;
 
-  // while (num.toString().length > 1) {}
   result = num.toString().length > 1 ? persistence(num.toString().split('').reduce((a, b) => a * b)) + 1 : result;
   return result
 }
