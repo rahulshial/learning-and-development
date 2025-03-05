@@ -22,7 +22,6 @@ function findMissingLetter(array) {
   }
 
   return ("No missing letter found");
-
 }
 
 console.log(findMissingLetter(["a", "b", "c", "d", "f"]))
